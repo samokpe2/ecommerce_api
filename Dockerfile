@@ -3,6 +3,6 @@ WORKDIR /app
 COPY package.json /app
 RUN npm install
 COPY . /app
-CMD nodemon index.js
+CMD npm run serve
 EXPOSE 8081
 
