@@ -17,7 +17,6 @@ async function create(customer){
         const res = await customerService.create(name, email, password);
         
         if(res){
-            console.log("Hiii")
             winston.info(`${customer.email} registered at ${new Date()}`)
             let message = "Customer Created"
             let data = []
