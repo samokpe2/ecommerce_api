@@ -1,5 +1,9 @@
 # Ecommerce API 
 
+
+This uses an in-memory sqlite3 database 
+
+
 API for an e-commerce store catering to customers and their orders.
 
 
