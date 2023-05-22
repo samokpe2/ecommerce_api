@@ -10,7 +10,7 @@ const db = new sqlite3.Database(':memory:', (err) => {
 });
 
 //could also use file/ persistent database
-// const db = new sqlite3.Database(path.resolve(__dirname, 'ecommerce.db'),sqlite3.OPEN_READWRITE, (err) => {
+// const db = new sqlite3.Database(path.resolve(__dirname, 'ecommerce.db'),sqlite3.OPEN_CREATE, (err) => {
 //     if (err) {
 //         return console.error(err.message);
 //       }
